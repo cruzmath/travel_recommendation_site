@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Document</title>
+</head>
+<body style="background-image: url('/imagens/backgroung.jpg'); background-size: cover; background-position: center";>
+    <nav><h1> Home </h1>
+        <ul>
+            <li><a href= "#home">Home </a></li>
+            <li><a href= "#about-us">About Us </a></li>
+            <li><a href= "#contact-us">Contact Us </a></li>
+            <li><input type="text" id="conditionInput" placeholder="Enter a keyword">  </li>
+            <li><button id='btnSearch'>Search</button></li>
+            <li><button id='btnClear'>Clear</button></li>
+        </ul>
+    </nav>
+
+    <section id="home"; class="secao">
+        <h2> Create memories through travels </h2>
+        <p> Discover the most breathtaking destinations, hidden gems, and unforgettable experiences. Our platform connects you with the best places to visit, tailored to your interests and preferences. </p>
+    </section>
+  
+    <section id="about-us"; class="secao">
+        <h2> About Us </h2>
+        <p> We are a team of passionate individuals dedicated to creating unique and unforgettable experiences for our customers. Our mission is to provide exceptional service, quality products, and a personalized approach to every interaction. </p>
+        
+        <h3>  Our Story </h3>
+        <p> Our journey began with a shared vision of creating a platform that would bring people together and inspire them to explore new horizons. With a deep passion for travel and a commitment to excellence, we set out to create a community that would connect travelers with the best destinations, experiences, and expertise. </p>
+
+        <h3> Our Values </h3>
+            <li> Quality: We strive to deliver exceptional quality in every aspect of our service, from the accuracy of our information to the personal touch of our interactions.</li>
+            <li> Innovation: We are constantly seeking new and better ways to serve our customers, whether through the development of new features or the creation of new experiences.</li>
+            <li> Community: We believe that travel is a shared experience, and we strive to create a community that is supportive, informative, and inspiring.</li>
+            <li> Sustainability: We are committed to responsible and sustainable practices that minimize our impact on the environment and promote the well-being of local communities.</li>
+    </section>
+
+    <section id="contact-us"; class="secao">
+        <h2> Get in Touch </h2>
+        <p> We would love to hear from you! Whether you have a question, a suggestion, or just want to say hello, we're here to listen. Contact us today to learn more about our platform and how we can help you achieve your travel goals. </p>
+        <form>
+            <label for="name">Name:</label> <input type="text" id="name" name="name" required>           
+            <label for="email">Email:</label> <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea> <input type="submit" value="Send Message">
+        </form>
+    </section>
+    <div class="results-container" id="results"></div>
+    <script src="./index.js"></script>
+</body>
+</html>
