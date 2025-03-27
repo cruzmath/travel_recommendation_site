@@ -1,0 +1,47 @@
+body {
+    font-size: 160%;
+  }
+
+nav ul {
+    list-style: none;
+    position: fixed;
+ 
+    top: 0;
+    right: 0;
+    display: flex;
+}
+ 
+nav li {
+    margin-right: 20px;
+}
+ 
+nav a {
+    text-decoration: underline;
+    color: #000;
+}
+ 
+img {
+    width: 600px;
+    height: 400px;
+  }
+ 
+.secao {
+    width: 50vw;
+    text-align: justify;
+    background-color: rgba(255,255,255,0.4);
+}
+ 
+.results-container {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    transform: translateY(-50%);
+    width: 45%;
+}
+ 
+.results-container .result-container {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
